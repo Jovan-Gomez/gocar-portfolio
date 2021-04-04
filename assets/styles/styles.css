@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #0c0d1c;
+  color: white;
+}
+p{
+    padding: 10px 0;
+}
+a {
+  text-decoration: none;
+}
+span{
+    font-weight: bold;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/*title*/
+.title h2{
+    text-align: center;
+    font-size: 2.7rem;
+    padding: 100px 0;
+}
+.title h2::before{
+    content: "< ";
+    color: #f72585;
+}
+.title h2::after{
+    content: " />";
+    color: #f72585;
+}
+
+@media all and (min-width:768px){
+    .title h2{
+        font-size: 4rem;
+    }
+}
+
+/*end title*/
+
+/*start nav-menu*/
+header {
+  width: 100%;
+  height: 130px;
+  background-color: #0c0d1c;
+}
+.nav-icon {
+  padding: 20px 0px;
+}
+.nav-icon img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+.nav-menu {
+  background-color: #0c0d1c;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 430px;
+  margin: auto;
+}
+.nav-menu a {
+  font-size: 1.5rem;
+  padding: 5px;
+  color: white;
+}
+
+
+@media all and (min-width:768px){
+    header{
+        height: auto;
+    }
+    .nav-ico{
+        display: inline-block;
+    }
+    .container-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-menu a::after{
+        content: " />";
+        padding: 0 0.5rem;
+    }
+}
+/*end nav-menu*/
+
+/*start banner*/
+.banner-img {
+  background-image: url("../img/bg-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.banner-color {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.banner-content h1 {
+  color: #4cc9f0;
+  font-size: 3rem;
+}
+.banner-content h1 span {
+  padding-top: 15px;
+  display: block;
+  color: white;
+  font-size: 1.4rem;
+}
+.banner-btn {
+  display: flex;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.banner-btn .btn{
+  padding: 15px 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.banner-btn .btn-contact {
+  border: none;
+  background-color: #f72585;
+}
+.banner-btn .btn-portfolio {
+  border: 1px solid #f72585;
+}
+.btn-contact a {
+  color: white;
+  font-weight: bold;
+}
+.btn-portfolio a {
+  color: #4cc9f0;
+}
+
+@media all and (min-width:768px){
+    .banner-content h1 {
+        font-size: 4rem;
+      }
+      .banner-content h1 span{
+          display: inline-block;
+      }
+      .banner-btn .btn{
+        font-size: 1.6rem;
+        margin-right: 20px;
+      }
+}
+/*end banner*/
+
+/*start about*/
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#about .photo-me{
+    width: 100%;
+    max-width: 400px;
+}
+#about .photo-me img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about-me{
+    padding-top: 40px;
+    max-width: 570px;
+}
+.about-me h3{
+    font-size: 1.9rem;
+    padding-bottom: 1rem;
+}
+.about-me h3 span{
+    color: #4cc9f0;
+    letter-spacing: .5px;
+}
+.about-me p{
+    text-align: justify;
+    font-size: 1.6rem;
+}
+.about-me .p1{
+   color: #f72585;
+}
+.about-me .youtube{
+    color: red;
+}
+.about-me .academlo{
+    color: #ea4959;
+}
+.about-me a{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    border: 1px solid #ffd166;
+    transition: all .3s ease-in-out;
+}
+.about-me a:hover{
+    border: 1px solid lightseagreen;
+    background-color: lightseagreen;
+}
+
+@media all and (min-width:768px){
+    .photo-me{
+        margin-right: 30px;
+    }
+    .about-me{
+        padding-left: 30px;
+        text-align: left;
+    }
+}
+/*end about*/
+
+/*start services*/
+.container-service{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container-service img{
+    width: 60px;
+    padding-bottom: 20px;
+}
+.container-service .service-content{
+    font-size: 1.4em;
+    text-align: left;
+    margin: 5px auto;
+    max-width: 260px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.service-content h3{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.service-content p{
+    line-height: 20px;
+}
+
+/*end services*/
+
+/*start skills*/
+#skill{
+    padding-bottom: 100px;
+}
+.container-skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.container-skill .skill-content{
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.skill-content .name-skill{
+    color: #4cc9f0;
+    font-weight: bold;
+}
+.skill-content .porcent{
+    color: red;
+}
+/*end skills*/
+
+/*start contact*/
+.form{
+    border: 1px solid white;
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.form fieldset{
+    border: none;
+}
+
+.form legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.container-input .input{
+    margin-bottom: 2rem;
+}
+
+.input label{
+    font-size: 1.4rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.input .input-text{
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.btn-submit input{
+    padding: .5rem 2rem;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    background-color: #f72585;
+    min-width: 100px;
+    border: none;
+}
+/*end contact*/
+
+/*start footer*/
+.footer{
+    padding-top: 10rem;
+    text-align: center;
+}
+.footer h3{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+.footer .content-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer p{
+    font-size: 1.6;
+}
+.footer-top-bottom{
+    padding-bottom: 1rem;
+}
+/*end footer*/
