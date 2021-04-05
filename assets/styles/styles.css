@@ -196,6 +196,7 @@ header {
     border-radius: 1rem;
 }
 .about-me{
+    padding-top: 6rem;
     max-width: 60rem;
 }
 .about-me h3{
@@ -239,6 +240,7 @@ header {
         margin-right: 2rem;
     }
     .about-me{
+        padding-top: 0;
         padding-left: 3rem;
         text-align: left;
         max-width: 45rem;
