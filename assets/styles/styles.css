@@ -17,7 +17,7 @@ body {
   color: white;
 }
 p{
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 a {
   text-decoration: none;
@@ -34,7 +34,7 @@ span{
 .title h2{
     text-align: center;
     font-size: 2.7rem;
-    padding: 100px 0;
+    padding: 10rem 0;
 }
 .title h2::before{
     content: "< ";
@@ -56,14 +56,14 @@ span{
 /*start nav-menu*/
 header {
   width: 100%;
-  height: 130px;
+  height: 13rem;
   background-color: #0c0d1c;
 }
 .nav-icon {
-  padding: 20px 0px;
+  padding: 2rem 0;
 }
 .nav-icon img {
-  width: 200px;
+  width: 20rem;
   display: block;
   margin: auto;
 }
@@ -73,12 +73,12 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 430px;
+  max-width: 43rem;
   margin: auto;
 }
 .nav-menu a {
   font-size: 1.5rem;
-  padding: 5px;
+  padding: .5rem;
   color: white;
 }
 
@@ -112,7 +112,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 500px;
+  height: 50rem;
 }
 .banner-color {
   background-color: rgba(0, 0, 0, 0.6);
@@ -134,20 +134,20 @@ header {
   font-size: 3rem;
 }
 .banner-content h1 span {
-  padding-top: 15px;
+  padding-top: 1.5rem;
   display: block;
   color: white;
   font-size: 1.4rem;
 }
 .banner-btn {
   display: flex;
-  margin-top: 20px;
+  margin-top: 2rem;
   font-size: 1.2rem;
 }
 .banner-btn .btn{
-  padding: 15px 30px;
-  margin-right: 10px;
-  border-radius: 5px;
+  padding: 1.5rem 3rem;
+  margin-right: 1rem;
+  border-radius: .5rem;
 }
 .banner-btn .btn-contact {
   border: none;
@@ -173,7 +173,7 @@ header {
       }
       .banner-btn .btn{
         font-size: 1.6rem;
-        margin-right: 20px;
+        margin-right: 2rem;
       }
 }
 /*end banner*/
@@ -189,15 +189,14 @@ header {
 }
 #about .photo-me{
     width: 100%;
-    max-width: 400px;
+    max-width: 40rem;
 }
 #about .photo-me img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 .about-me{
-    padding-top: 40px;
-    max-width: 570px;
+    max-width: 60rem;
 }
 .about-me h3{
     font-size: 1.9rem;
@@ -210,6 +209,7 @@ header {
 .about-me p{
     text-align: justify;
     font-size: 1.6rem;
+    line-height: 2.5rem;
 }
 .about-me .p1{
    color: #f72585;
@@ -222,10 +222,10 @@ header {
 }
 .about-me a{
     font-size: 1.5rem;
-    margin-top: 10px;
+    margin-top: 1rem;
     display: inline-block;
     color: white;
-    padding: 20px;
+    padding: 2rem;
     border: 1px solid #ffd166;
     transition: all .3s ease-in-out;
 }
@@ -236,12 +236,12 @@ header {
 
 @media all and (min-width:768px){
     .photo-me{
-        margin-right: 20px;
+        margin-right: 2rem;
     }
     .about-me{
-        padding-left: 30px;
+        padding-left: 3rem;
         text-align: left;
-        max-width: 395px;
+        max-width: 45rem;
     }
 
 }
@@ -259,16 +259,16 @@ header {
     flex-wrap: wrap;
 }
 .container-service img{
-    width: 60px;
-    padding-bottom: 20px;
+    width: 6rem;
+    padding-bottom: 2rem;
 }
 .container-service .service-content{
     font-size: 1.4em;
     text-align: left;
-    margin: 5px auto;
-    max-width: 260px;
-    padding-top: 30px;
-    padding-bottom: 35px;
+    margin: 0 auto;
+    max-width: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
 }
 
 .service-content h3{
@@ -277,14 +277,14 @@ header {
 }
 
 .service-content p{
-    line-height: 20px;
+    line-height: 2rem;
 }
 
 /*end services*/
 
 /*start skills*/
 #skill{
-    padding-bottom: 100px;
+    padding-bottom: 10rem;
 }
 .container-skill{
     display: flex;
@@ -295,10 +295,10 @@ header {
 .container-skill .skill-content{
     margin: 0 auto;
     display: flex;
-    padding: 10px;
+    padding: 1rem;
     justify-content: space-between;
     width: 100%;
-    max-width: 400px;
+    max-width: 40rem;
     text-transform: uppercase;
     font-size: 1.6rem;
 }
