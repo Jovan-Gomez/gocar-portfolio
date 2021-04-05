@@ -107,7 +107,7 @@ header {
 
 /*start banner*/
 .banner-img {
-  background-image: url("../img/bg-banner.jpg");
+  background-image: url("../img/bg-banner-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
