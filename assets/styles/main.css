@@ -292,8 +292,7 @@ header {
 }
 .container-skill{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+   flex-flow: row wrap;
 
 }
 .container-skill .skill-content{
@@ -326,7 +325,6 @@ header {
 }
 
 .progress-container{
-    display: flex;
     border-radius: 10px;
     background-color: lightgrey;
     margin-top: 1.5rem;
