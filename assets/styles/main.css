@@ -393,6 +393,11 @@ header {
     background-color: #f72585;
     min-width: 100px;
     border: none;
+    cursor: pointer;
+}
+
+.btn-submit input:hover{
+    background-color: #4cc9f0;
 }
 /*end contact*/
 
