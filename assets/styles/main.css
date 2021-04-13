@@ -107,7 +107,7 @@ header {
 
 /*start banner*/
 .banner-img {
-  background-image: url("../img/bg-banner-min.jpg");
+  background-image: url("../img/bg-banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -190,6 +190,7 @@ header {
 #about .photo-me{
     width: 100%;
     max-width: 40rem;
+    height: 53rem;
 }
 #about .photo-me img{
     width: 100%;
