@@ -192,17 +192,17 @@
     <!--start section contact-->
     <section id="contact">
         <div class="container">
-            <form class="form">
+            <form class="form" id="form-contact">
                 <fieldset>
                     <legend>Contáctame</legend>
                     <div class="container-input">
                         <div class="input">
-                            <label for="nombre">Nombre*</label>
-                            <input class="input-text" type="text" name="nombre" id="nombre" required>
+                            <label for="name">Nombre*</label>
+                            <input class="input-text" type="text" name="name" id="name" >
                         </div>
                         <div class="input">
                             <label for="email">Correo*</label>
-                            <input class="input-text" type="email" name="email" id="email" required>
+                            <input class="input-text" type="email" name="email" id="email" >
                         </div>
                         <div class="input">
                             <label for="telefono">Telefono</label>
@@ -210,11 +210,11 @@
                         </div>
                         <div class="input">
                             <label for="mensaje">Mensaje*</label>
-                            <textarea class="input-text" name="mensje" id="mensaje" required></textarea>
+                            <textarea class="input-text" name="mensaje" id="mensaje" ></textarea>
                         </div>
                     </div>
                     <div class="btn-submit">
-                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Enviar" id="submit-form">
                     </div>
                 </fieldset>
             </form>
@@ -270,6 +270,8 @@
         <div class="footer-top-bottom">&copy;Todos los derechos reservados by <span>G0CAR-J&Y</span></div>
     </footer>
     <!--end footer-->
+
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>

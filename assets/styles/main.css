@@ -308,15 +308,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
-/*
-.progress-container{
-    display: flex;
-    height: .8rem;
-    background-color: #4cc9f0;
-    border-radius: 1rem;
-    margin-top: 1rem;
-}
-*/
+
 .skill-content .name-skill{
     color: #f72585;
     font-weight: bold;
@@ -350,6 +342,23 @@ header {
 /*end skills*/
 
 /*start contact*/
+.error{
+    padding: 2rem;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.succes{
+    padding: 2rem;
+    background-color: rgb(43, 185, 43);
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .form{
     border: 1px solid white;
     width: min(60rem, 100%);
